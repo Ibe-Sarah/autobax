@@ -1,0 +1,58 @@
+.serv-img{
+    width: 100%;
+    object-fit: cover;
+    height: 60vh;
+}
+.our-services{
+    text-align: center;
+    margin-top: -16.5em;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+
+.proc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 100%; */
+    padding-left: 16em;
+    padding-bottom: 3em;
+}
+.proc h4, .proc h5, .proc p{
+    font-family: 'Poppins', sans-serif;
+    color: #404040;
+}
+.proc h4, .proc h5{
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.process-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 100%;
+}
+.process-card{
+    display: flex;
+    gap: 7em;
+    padding-top: 3em;
+}
+
+.carding{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.carding h4{
+    padding-top: 1em;
+    color: #404040;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.carding p{
+    padding-top: 1em;
+}
