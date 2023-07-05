@@ -1,0 +1,33 @@
+.us-img{
+    width: 100%;
+    object-fit: cover;
+    height: 60vh;
+}
+.us{
+    text-align: center;
+    margin-top: -16.5em;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+
+
+.specialty{
+    padding-bottom: 2.5em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+
+}
+.special{
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    margin-top: -2em;
+    background-color:rgba(245, 245, 245, 1);
+    padding: 0.7em;
+    font-family: 'DM Sans', sans-serif;
+}
+.special h4{
+    font-weight: 600;
+}
