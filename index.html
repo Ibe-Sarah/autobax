@@ -48,7 +48,7 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                <ul class="nav navbar-nav navbar-right">
-                  <li ><a  href="index.html">HOME</a></li>
+                  <li ><a class="active" href="index.html">HOME</a></li>
                   <li><a href="about-us.html">ABOUT US</a></li>
                   <li><a href="services.html">SERVICES</a></li>
                   <button class="up" onclick = "window.location.href='contact.html';" style="margin-left: 5em; ">GET IN TOUCH</button>
@@ -344,5 +344,25 @@
 
 
 </div>
+<script>
+    /* Code for changing active 
+            link on clicking */
+            var btns = 
+                $("#navigation .navbar-nav .nav-link");
+  
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].addEventListener("click",
+                                      function () {
+                    var current = document
+                        .getElementsByClassName("active");
+  
+                    current[0].className = current[0]
+                        .className.replace(" active", "");
+  
+                    this.className += " active";
+                });
+            }
+</script>
+
    </body>
 </html>
