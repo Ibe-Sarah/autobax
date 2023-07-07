@@ -19,6 +19,8 @@
     /* width: 100%; */
     padding-left: 16em;
     padding-bottom: 3em;
+    background-color: #F6F6F6;
+
 }
 .proc h4, .proc h5, .proc p{
     font-family: 'Poppins', sans-serif;

@@ -16,6 +16,8 @@
     display: flex;
     justify-content: center;
     gap: 1em;
+    background-color: #F6F6F6;
+    
 
 }
 .special{
@@ -24,9 +26,10 @@
     width: 22rem;
     /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
     margin-top: -2em;
-    background-color:rgba(245, 245, 245, 1);
+    background-color:#F5F5F5;
     padding: 0.7em;
     font-family: 'DM Sans', sans-serif;
+    text-align: center;
 }
 .special h4{
     font-weight: 600;
