@@ -24,6 +24,8 @@
       <link href='index.css' rel='stylesheet'>
       <link href='services.css' rel='stylesheet'>
       <link href='about-us.css' rel='stylesheet'>
+      <link href='mobile.css' rel='stylesheet'>
+
      
    </head>
    <body>
@@ -33,47 +35,79 @@
 
       
       <!-- Navbar -->
-      <nav class="navbar navbar-default">
-         <div class="container">
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>                        
-               </button>
-               <a class="navbar-brand" href="#">
-               <img src="assets/image 30.png" style="height:3em; margin-top: -0.4em; padding-left: 3em;" alt="">
+      <nav class="menu-container">
+         <!-- burger menu -->
+         <input type="checkbox" aria-label="Toggle menu" />
+         <span></span>
+         <span></span>
+         <span></span>
+       
+         <!-- logo -->
+         <a href="#" class="menu-logo">
+           <img src="assets/image 30.png" alt="My Awesome Website"/>
+         </a>
+       
+         <!-- menu items -->
+         <div class="menu">
+           <ul>
+             <li>
+               <a  href="index.html">
+                 HOME
                </a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-               <ul class="nav navbar-nav navbar-right">
-                  <li ><a  href="index.html">HOME</a></li>
-                  <li><a class="active" href="about-us.html">ABOUT US</a></li>
-                  <li><a href="services.html">SERVICES</a></li>
-                  <button class="up" onclick = "window.location.href='contact.html';" style="margin-left: 5em; ">GET IN TOUCH</button>
+             </li>
+             <li>
+               <a  class="active" href="about-us.html">
+                 ABOUT US
+               </a>
+             </li>
+             <li>
+               <a href="services.html">
+                 SERVICES
+               </a>
+             </li>
+             <li>
+            <button class="up" onclick = "window.location.href='contact.html';" style=" ">GET IN TOUCH</button>
 
-               </ul>
-
-            </div>
-
+               
+             </li>
+           </ul>
+           <!-- <ul>
+             <li>
+               <a href="#signup">
+                 Sign-up
+               </a>
+             </li>
+             <li>
+               <a href="#login">
+                 Login
+               </a>
+             </li>
+           </ul> -->
          </div>
-      </nav>
+       </nav>
 
       <!-- first container -->
 
-      <div>
+      <div class="desk-us">
         <img class="us-img" src="assets/about-us-img.png">
-
         <div class="us">
         <h3>ABOUT US</h3>
         <h5>Home | About Us</h5>
       </div>
+      </div>
+
+      
+      <div class="mobile-us">
+        <img class="us-img" src="assets/mobile-us.png">
+        <div class="us">
+        <h3>ABOUT US</h3>
+        <h5>Home | About Us</h5>
+      </div>
+      </div>
+      
 
       <!-- second container -->
-      <div></div>
-      <div style="padding-top: 15em; padding-bottom: 3em;" class="about-us">
-        <img src="assets/image 20.png" width="30%">
+       <div style="padding-top: 15em; padding-bottom: 3em;" class="about-us" id="desk-about-us">
         <div class="about-details">
            <h4>ABOUT US</h4>
            <h5>Why Autobax</h5>
@@ -81,9 +115,21 @@
            <p>Lorem ipsum dolor sit amet consectetur.<br> Odio faucibus viverra ac amet nibh purus<br> varius in. Platea interdum ullamcorper purus<br> vulputate bibendum fames consectetur. Eget<br> nisl vitae habitasse lorem. Nibh sed ultrices sit vestibulum.</p>
            <!-- <button>Learn more</button> -->
         </div>
+        <img src="assets/image 20.png" width="30%">
+
         </div>
 
-
+        <div style="padding-top: 15em; padding-bottom: 3em;" id="mobile-about-us" class="about-us">
+          <div class="about-details">
+             <h4>ABOUT US</h4>
+             <h5>Why Autobax</h5>
+             <h6>Offers high quality body repairs</h6>
+             <p>Lorem ipsum dolor sit amet consectetur.<br> Odio faucibus viverra ac amet nibh purus<br> varius in. Platea interdum ullamcorper purus<br> vulputate bibendum fames consectetur. Eget<br> nisl vitae habitasse lorem. Nibh sed ultrices sit vestibulum.</p>
+             <!-- <button>Learn more</button> -->
+          </div>
+          <img src="assets/image 20.png" width="30%">
+  
+          </div>
         <!-- third container -->
         <div class="we-are" style="background-color:rgba(75, 75, 75, 0.07); padding-bottom: 5em;
         ;">
@@ -227,13 +273,13 @@
 
    <div class="socials">
       <img src="assets/twit.png">
-      <img src="assets/meta.png">
+      <img class="ff" src="assets/meta.png">
       <img src="assets/IG.png">
       <img src="assets/hub.png">
    </div>
 </div>
-
-<div class="foot2">
+<div class="foots">
+  <div class="foot2">
    <h5 style="font-weight: 600; padding-bottom: 1em">Company</h5>
    <h5>Home</h5>
    <h5>About Us</h5>
@@ -255,6 +301,7 @@
    <h5>Development Tutorial</h5>
    <h5>How to Blog</h5>
    <h5>Youtube Playlist</h5>
+</div>
 </div>
 
 

@@ -24,6 +24,8 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
 
       <link href='index.css' rel='stylesheet'>
+      <link href='mobile.css' rel='stylesheet'>
+
      
    </head>
    <body>
@@ -33,7 +35,7 @@
 
       
       <!-- Navbar -->
-      <nav class="navbar navbar-default">
+      <!-- <nav class="navbar navbar-default">
          <div class="container">
             <div class="navbar-header">
                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
@@ -58,14 +60,65 @@
             </div>
 
          </div>
-      </nav>
+      </nav> -->
+
+      <!-- mobile-navbar -->
+      <nav class="menu-container">
+         <!-- burger menu -->
+         <input type="checkbox" aria-label="Toggle menu" />
+         <span></span>
+         <span></span>
+         <span></span>
+       
+         <!-- logo -->
+         <a href="#" class="menu-logo">
+           <img src="assets/image 30.png" alt="My Awesome Website"/>
+         </a>
+       
+         <!-- menu items -->
+         <div class="menu">
+           <ul>
+             <li>
+               <a class="active" href="index.html">
+                 HOME
+               </a>
+             </li>
+             <li>
+               <a href="about-us.html">
+                 ABOUT US
+               </a>
+             </li>
+             <li>
+               <a href="services.html">
+                 SERVICES
+               </a>
+             </li>
+             <li>
+            <button class="up" onclick = "window.location.href='contact.html';" style=" ">GET IN TOUCH</button>
+
+               
+             </li>
+           </ul>
+           <!-- <ul>
+             <li>
+               <a href="#signup">
+                 Sign-up
+               </a>
+             </li>
+             <li>
+               <a href="#login">
+                 Login
+               </a>
+             </li>
+           </ul> -->
+         </div>
+       </nav>
 
       <!-- first container -->
 
-      <div>
-        <img class="first" src="assets/Group 2608695.png">
-
-        <div class="customer">
+      <div id="desk-first">
+        <img class="first" src="assets/Group 2608695.png" >
+         <div class="customer">
         <div class="first-part">
             <h5>MAKE YOUR CAR AS GOOD AS NEW</h5>
             <h3>Find Customer Focused <br>Body Repair Near you</h3>
@@ -106,17 +159,64 @@
       </div>
 
       <div></div>
+      </div>
+
+      <div class="mobile-first">
+      <img class="" src="assets/mobile-first.png" >
+      <div class="customer"  style="display: flex; flex-direction: column !important; margin-top: -25em !important; padding-left: 3em;">
+     <div class="first-part" >
+         <h5 style="font-weight: 500 !important;">MAKE YOUR CAR AS GOOD AS NEW</h5>
+         <h3 style="font-weight: 500 !important;">Find Customer Focused <br>Body Repair Near you</h3>
+         <p style="font-weight: 500 !important;">Lorem ipsum dolor sit amet consectetur. Volutpat aliquet <br> ultrices mauris suspendisse pharetra quis ut egestas id.</p>
+         <button onclick="window.location.href='services.html'">Check Our Services</button>
+     </div>
+
+         <div class="second-part">
+             <div class="blue">
+             <h4>Book An Appointment</h4>
+             <hr>
+             <input type="text" placeholder="First Name"><br>
+             <input  style="margin-top: 1em;" type="email" placeholder="you@example.com"><br>
+             <button  onclick="window.location.href='book.html'" style="margin-top: 1em; color: rgba(0, 81, 156, 1); font-weight: 600;">Book An Appointment</button>
+             </div>
+
+             <div class="navy">
+                 <h4>Book An Appointment</h4>
+                 <hr>
+                 <div style="display: flex; gap: 2em; font-size: 0.7em !important;">
+                 <div>
+                     <h4>Call  Us:</h4>
+                     <h4>Find Us:</h4>
+                     <h4>Email Us:</h4>
+                     <h4 >Work Time:</h4>
+                 </div>
+                 
+                 <div>
+                     <h4>027 000 000 8229</h4>
+                     <h4>info@gmail.com</h4>
+                     <h4>Market street, Lagon</h4>
+                     <h4>Mon - Sat 7.00  - 18.00</h4>
+                 </div>
+
+                 </div>
+                 </div>
+             </div>
+   </div>
+
+   <div></div>
+      </div>
 
       <!-- second container -->
       <div class="about-us">
-         <img src="assets/image 20.png" width="30%">
          <div class="about-details">
             <h4>ABOUT US</h4>
             <h5>Why Autobax</h5>
             <h6>Offers high quality body repairs</h6>
-            <p>Lorem ipsum dolor sit amet consectetur.<br> Odio faucibus viverra ac amet nibh purus<br> varius in. Platea interdum ullamcorper purus<br> vulputate bibendum fames consectetur. Eget<br> nisl vitae habitasse lorem. Nibh sed ultrices sit vestibulum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur.<br> Odio faucibus viverra ac amet nibh purus<br> varius in. Platea interdum ullamcorper purus<br> vulputate bibendum fames consectetur. Eget<br> nisl vitae habitasse lorem. Nibh sed ultrices sit<br> vestibulum.</p>
             <button onclick="window.location.href='about-us.html'">Learn more</button>
          </div>
+         <img src="assets/image 20.png" width="30%">
+
          </div>
 
          <!-- third container -->
@@ -206,28 +306,30 @@
    <h5>Repair Process</h5>
    <p>Lorem ipsum dolor sit amet consectetur. Odio faucibus viverra<br> ac amet nibh purus varius in.</p>
    </div>
-   <hr style="border: 1px solid #C6C6C6; width: 52%; margin-top: 4em; "></hr>
-
+   <hr  class="hr" style="border: 1px solid #C6C6C6; width: 52%; margin-top: 4em; "></hr>
    <div class="circle">
       <div class="circles">
-         <img src="assets/one.png" width="42%">
+         <img  class="stt" src="assets/one (2).png" width="30%">
          <h5>Vehicle Drop Off</h5>
          <p>Lorem ipsum dolor sit amet<br> consectetur. Odio faucibus<br> viverra ac amet nibh purus<br> varius in.</p>
       </div>
 
       <div class="circles">
+         <div class="vl"></div>
          <img src="assets/two.png" width="30%">
          <h5>Body Repairs</h5>
          <p>Lorem ipsum dolor sit amet<br> consectetur. Odio faucibus<br> viverra ac amet nibh purus<br> varius in.</p>
       </div>
 
       <div class="circles">
+         <div class="vl"></div>
          <img src="assets/three.png" width="30%">
          <h5>Painting Polish</h5>
          <p>Lorem ipsum dolor sit amet<br> consectetur. Odio faucibus<br> viverra ac amet nibh purus<br> varius in.</p>
       </div>
 
       <div class="circles">
+         <div class="vl"></div>
          <img src="assets/four.png" width="30%">
          <h5>Quality Assurance</h5>
          <p>Lorem ipsum dolor sit amet<br> consectetur. Odio faucibus<br> viverra ac amet nibh purus<br> varius in.</p>
@@ -252,7 +354,7 @@
          
          <div>
          <h5>John Doe</h5>
-         <img src="assets/1653941533538 1.png" width="32%" style="margin-top: -1.5em;">
+         <img class="star" src="assets/1653941533538 1.png" width="32%" style="margin-top: -1.5em;">
          </div>
 
          </div>
@@ -265,7 +367,7 @@
          
          <div>
          <h5>John Doe</h5>
-         <img src="assets/1653941533538 1.png" width="32%" style="margin-top: -1.5em;">
+         <img  class="star" src="assets/1653941533538 1.png" width="32%" style="margin-top: -1.5em;">
          </div>
 
          </div>
@@ -279,7 +381,7 @@
          
          <div>
          <h5>John Doe</h5>
-         <img src="assets/1653941533538 1.png" width="32%" style="margin-top: -1.5em;">
+         <img class="star" src="assets/1653941533538 1.png" width="32%" style="margin-top: -1.5em;">
          </div>
 
          </div>
@@ -293,7 +395,7 @@
          
          <div>
          <h5>John Doe</h5>
-         <img src="assets/1653941533538 1.png" width="32%" style="margin-top: -1.5em;">
+         <img class="star" src="assets/1653941533538 1.png" width="32%" style="margin-top: -1.5em;">
          </div>
 
          </div>
@@ -307,7 +409,7 @@
          
          <div>
          <h5>John Doe</h5>
-         <img src="assets/1653941533538 1.png" width="32%" style="margin-top: -1.5em;">
+         <img class="star" src="assets/1653941533538 1.png" width="32%" style="margin-top: -1.5em;">
          </div>
 
          </div>
@@ -320,7 +422,7 @@
          
          <div>
          <h5>John Doe</h5>
-         <img src="assets/1653941533538 1.png" width="32%" style="margin-top: -1.5em;">
+         <img class="star" src="assets/1653941533538 1.png" width="32%" style="margin-top: -1.5em;">
          </div>
 
          </div>
@@ -350,12 +452,12 @@
 
    <div class="socials">
       <img src="assets/twit.png">
-      <img src="assets/meta.png">
+      <img class="ff" src="assets/meta.png">
       <img src="assets/IG.png">
       <img src="assets/hub.png">
    </div>
 </div>
-
+<div class="foots">
 <div class="foot2">
    <h5 style="font-weight: 600; padding-bottom: 1em">Company</h5>
    <h5>Home</h5>
@@ -379,7 +481,7 @@
    <h5>How to Blog</h5>
    <h5>Youtube Playlist</h5>
 </div>
-
+</div>
 
 </div>
 <script>

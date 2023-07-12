@@ -23,35 +23,62 @@
 
       <link href='index.css' rel='stylesheet'>
       <link href='contact.css' rel='stylesheet'>
+      <link href='mobile.css' rel='stylesheet'>
+
    </head>
 
-   <nav class="navbar navbar-default">
-      <div class="container">
-         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>                        
-            </button>
-            <a class="navbar-brand" href="#">
-            <img src="assets/image 30.png" style="height:3em; margin-top: -0.4em; padding-left: 3em;" alt="">
-            </a>
-         </div>
-         <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-               <li ><a  href="index.html">HOME</a></li>
-               <li><a href="about-us.html">ABOUT US</a></li>
-               <li><a href="services.html">SERVICES</a></li>
-               <button class="up" onclick = "window.location.href='contact.html';" style="margin-left: 5em; ">GET IN TOUCH</button>
-
-            </ul>
-
-         </div>
-
-      </div>
-   </nav>
 <body>
+   <nav class="menu-container">
+      <!-- burger menu -->
+      <input type="checkbox" aria-label="Toggle menu" />
+      <span></span>
+      <span></span>
+      <span></span>
+    
+      <!-- logo -->
+      <a href="#" class="menu-logo">
+        <img src="assets/image 30.png" alt="My Awesome Website"/>
+      </a>
+    
+      <!-- menu items -->
+      <div class="menu">
+        <ul>
+          <li>
+            <a  href="index.html">
+              HOME
+            </a>
+          </li>
+          <li>
+            <a href="about-us.html">
+              ABOUT US
+            </a>
+          </li>
+          <li>
+            <a href="services.html">
+              SERVICES
+            </a>
+          </li>
+          <li>
+         <button class="up" onclick = "window.location.href='contact.html';" style=" ">GET IN TOUCH</button>
+
+            
+          </li>
+        </ul>
+        <!-- <ul>
+          <li>
+            <a href="#signup">
+              Sign-up
+            </a>
+          </li>
+          <li>
+            <a href="#login">
+              Login
+            </a>
+          </li>
+        </ul> -->
+      </div>
+    </nav>
+
 
 <div class="contact">
     <h5>Contact us</h5>
@@ -74,7 +101,7 @@
     
 </form>
 
-<input type="checkbox" style="margin-left: 15.3em !important; margin-top: -4em;"> <h5 style="margin-left: 27em !important; margin-top: -1em; font-family: 'Poppins',sans-serif; color: rgba(9, 30, 66, 1);">You agree to our friendly privacy policy</h5>
+<input type="checkbox"  id="check" style="margin-left: 15.3em ; margin-top: -4em;"> <h5  id="h5"  style="margin-left: 27em; margin-top: -1em; font-family: 'Poppins',sans-serif; color: rgba(9, 30, 66, 1);">You agree to our friendly privacy policy</h5>
 
 <!-- <div class="mobile">
 <label style="margin-top: 10em; display: flex; position: absolute; 

@@ -9,7 +9,13 @@
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
 }
+.mobile-us{
+    display: none;
+}
 
+#mobile-about-us{
+    display: none;
+}
 
 .specialty{
     padding-bottom: 2.5em;

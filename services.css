@@ -10,6 +10,9 @@
     color: #FFFFFF;
 }
 
+.mobile-serve{
+    display: none;
+}
 .proc{
     display: flex;
     flex-direction: column;
@@ -36,6 +39,9 @@
     flex-direction: column;
     gap: 2em;
     width: 100%;
+}
+#mobile-process{
+    display: none;
 }
 .process-card{
     display: flex;
