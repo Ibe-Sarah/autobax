@@ -404,6 +404,13 @@ font-size: 2em;
     display: block;
     z-index: 0;
 }
+
+.first-part{
+    z-index: 0;
+}
+.menu{
+    /* z-index: 10000; */
+}
 .second-part{
     width: 80%; height: 35% !important;
     margin-top:-13em;
@@ -525,7 +532,7 @@ font-size: 2em;
 
 .footer-container{
     flex-direction: column;
-    padding-top: 8em;
+    padding-top: 5em !important;
 }
 
 .socials img{
@@ -638,6 +645,81 @@ width: 3.5%;
 }
 #mobile-process{
     display: block;
+}
+/* contact page  */
+.contact p{
+    width: 80%;
+    line-height: 120%;
+    text-align: center;
+    color: #667085;
+    font-size: 1.3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    /* margin-left: 3em; */
+    /* margin-right: auto; */
+}
+.contact-form input{}
+
+.contact-form textarea{
+    /* margin-left: -0.9em; */
+    width: 300px;
+}
+#check{
+    margin-left: -5.7em !important;
+}
+#h5{
+    margin-left: 6.3em !important;
+}
+.form-btn{
+    margin-left: 6em;
+    padding: 1.3em 9.5em;
+
+}
+
+/* book page */
+.book-form input{
+    background-color: #ffffff;
+    width: 120%;
+    border-color: 2px solid rgba(75, 75, 75, 0.07);
+
+}
+
+.book-form textarea{
+    background-color: #ffffff;
+    width: 120%;
+    border: 2px solid rgba(75, 75, 75, 0.07);
+
+}
+
+.appoint{
+    width: 100% !important;
+}
+
+#rgba{
+    background-color: #ffffff !important;
+}
+.book-form{
+    margin-left: -5em;
+}
+
+.appoint h3{
+    width: 400% !important;
+    text-align: left !important;
+    margin-left: -2.5em;
+}
+
+.appoint p{
+    width: 350% !important;
+    text-align: left !important;
+    margin-left: -5em;
+}
+.book-form button{
+    padding: 0.8em 9em;
 }
 }
 
