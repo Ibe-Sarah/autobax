@@ -375,7 +375,15 @@ font-size: 2em;
     #br{
         margin-left: -3em;
     }
-
+    .proc p{
+font-size: 1.7em;
+    }
+.proc h5{
+    font-size: 1.8em;
+}
+    .proc h4{
+        font-size: 2em;
+    }
     /* contact page */
     #check{
         margin-left: 35em !important;
