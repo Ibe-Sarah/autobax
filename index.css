@@ -447,7 +447,9 @@ font-weight: 600;
     height: 42%;
 
 }
-
+#small{
+    display: none;
+}
 
 @media only screen and (max-width: 1200px) {
     /* <!-- For Desktop --> */
