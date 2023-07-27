@@ -402,7 +402,7 @@ font-size: 1.7em;
 
 
 
-@media only screen and (max-width: 768px) { 
+@media only screen and (max-width: 767px) { 
 
     /* index page */
     #desk-first{
@@ -739,7 +739,7 @@ width: 3.5%;
 }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (width: 834px) {
     /* index.html */
 .menu-logo img {
    
@@ -920,6 +920,396 @@ width: 3.5%;
 
 .form-btn{
     margin-left: 9em;
+}
+
+.appoint{
+    width: 100%;
+}
+.appoint h3{
+    font-size: 3em;
+}
+
+.appoint p{
+    font-size: 1.2em;
+}
+}
+
+@media only screen and (width: 820px) {
+    /* index.html */
+.menu-logo img {
+   
+    width: 100px !important;
+    margin-top: 0.7em !important;
+    margin-left: 3em;
+    /* flex-shrink: 0; */
+  }
+
+    
+  .menu-logo {
+    line-height: 0;
+    margin: 0;
+  }
+
+  .menu{
+    margin-left: 7em !important;
+    width: 100% !important;
+  }
+
+  .menu button{
+    margin-left: 2em;
+    padding: 1em 0.2em;
+    width: 110%;
+
+  }
+
+  #abb{
+    width: 140px !important;
+  }
+
+  .first{
+    height: 50vh;
+  }
+
+  .second-part{
+    width: 50%;
+    margin-top: 0.5em;
+  }
+
+  .customer{
+    gap: 8em;
+    padding-left: 2em;
+    padding-right: 3em;
+  }
+
+  
+.navy h4, .blue h4{
+    font-size: 1.5em;
+}
+.navy h4{
+    padding-bottom: 0em !important;
+}
+
+.about-us{
+    padding-left: 0em !important;
+    width: 80em !important;
+    margin-left: -11em;
+    gap: 7em;
+}
+
+.html, body{
+    overflow-x: hidden;
+}
+.body-repair{
+    gap: 5em;
+    padding-left: 0em;
+}
+
+.panel-cards{
+    gap: 1.8em;
+   
+}
+
+.cards{
+    width: 23rem;
+    height: 20em;
+
+    /* margin-top: 1em; */
+}
+.cards img{
+    width: 23rem;
+}
+
+.we-are{
+    gap: 4.7em;
+    margin-left: -10em;
+}
+
+.we-are{
+    width: 130% !important;
+}
+
+.circles p{
+    font-size: 0.6em;
+}
+
+.hr{
+    width: 72% !important;
+}
+.card-container{
+    margin-left: 2em;
+}
+.testimonial-card{
+    width: 24rem;
+}
+.customers {
+    padding-left: 3.5em;
+}
+
+
+.auto-body-details h5{
+    padding-top: 4em;
+}
+
+.footer-container{
+    gap: 2em;
+}
+
+.foot1, .foot2, .foot3, .foot4{
+    font-size: 0.8em;
+}
+.foot1{
+    line-height:180% ;
+}
+.socials{
+    padding-top: 1em;
+}
+
+/* about us */
+.us-img{
+    height: 30vh;
+}
+
+.special h4{
+    font-size: 1em;
+}
+.special p{
+    font-size: 0.8em;
+}
+
+
+/* services */
+.serv-img{
+    height: 30vh;
+}
+.proc{
+    padding-left: 4em;
+}
+
+#one, #two, #third, #fourth{
+    width: 40% !important;
+    height: 40% !important;
+}
+
+.carding p {
+    padding-top: 1em;
+    width: 90%;
+}
+.carding p br {
+    display: none;
+}
+#sec, #for{
+    width: 25% !important;
+}
+
+#third, #fourth{
+    margin-right: 5em !important;
+}
+
+#check{
+    margin-left: -3em !important;
+}
+
+#h5{
+    margin-left: 9em !important;
+}
+
+.form-btn{
+    margin-left: 9em;
+}
+
+.appoint{
+    width: 100%;
+}
+.appoint h3{
+    font-size: 3em;
+}
+
+.appoint p{
+    font-size: 1.2em;
+}
+}
+
+@media only screen and (width: 768px) {
+    /* index.html */
+.menu-logo img {
+   
+    width: 100px !important;
+    margin-top: 0.7em !important;
+    margin-left: 3em;
+    /* flex-shrink: 0; */
+  }
+
+    
+  .menu-logo {
+    line-height: 0;
+    margin: 0;
+  }
+
+  .menu{
+    margin-left: 5em !important;
+    width: 100% !important;
+  }
+
+  .menu button{
+    margin-left: 2em;
+    padding: 1em 0.2em;
+    width: 110%;
+
+  }
+
+  #abb{
+    width: 140px !important;
+  }
+
+  .first{
+    height: 60vh;
+  }
+
+  .second-part{
+    width: 50%;
+    margin-top: 0.5em;
+  }
+
+  .customer{
+    gap: 8em;
+    padding-left: 2em;
+    padding-right: 3em;
+  }
+
+  
+.navy h4, .blue h4{
+    font-size: 1.5em;
+}
+.navy h4{
+    padding-bottom: 0em !important;
+}
+
+.about-us{
+    padding-left: 0em !important;
+    width: 79em !important;
+    margin-left: -12em;
+    gap: 7em;
+}
+
+.html, body{
+    overflow-x: hidden;
+}
+.body-repair{
+    gap: 5em;
+    padding-left: 0em;
+}
+
+.panel-cards{
+    gap: 1.8em;
+   
+}
+
+.cards{
+    width: 23rem;
+    height: 20em;
+
+    /* margin-top: 1em; */
+}
+.cards img{
+    width: 23rem;
+}
+
+.we-are{
+    gap: 2.7em;
+    margin-left: -9em;
+}
+
+.we-are{
+    width: 130% !important;
+}
+
+.circles p{
+    font-size: 0.6em;
+}
+
+.hr{
+    width: 72% !important;
+}
+.card-container{
+    margin-left: 2em;
+}
+.testimonial-card{
+    width: 24rem;
+}
+.customers {
+    padding-left: 3.5em;
+}
+
+
+.auto-body-details h5{
+    padding-top: 4em;
+}
+
+.footer-container{
+    gap: 2em;
+}
+
+.foot1, .foot2, .foot3, .foot4{
+    font-size: 0.8em;
+}
+.foot1{
+    line-height:180% ;
+}
+.socials{
+    padding-top: 1em;
+}
+
+/* about us */
+.us-img{
+    height: 30vh;
+}
+
+.special h4{
+    font-size: 1em;
+}
+.special p{
+    font-size: 0.8em;
+}
+
+
+/* services */
+.serv-img{
+    height: 30vh;
+}
+.proc{
+    padding-left: 4em;
+}
+
+#one, #two, #third, #fourth{
+    width: 40% !important;
+    height: 40% !important;
+}
+
+.carding p {
+    padding-top: 1em;
+    width: 90%;
+}
+.carding p br {
+    display: none;
+}
+#sec, #for{
+    width: 25% !important;
+}
+
+#third, #fourth{
+    margin-right: 5em !important;
+}
+
+#check{
+    margin-left: -5.3em !important;
+}
+
+#h5{
+    margin-left: 6.5em !important;
+}
+
+.form-btn{
+    margin-left: 6.5em;
 }
 
 .appoint{
