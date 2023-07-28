@@ -1023,6 +1023,7 @@ font-size: 1.7em;
         flex-direction: column;
         padding-left: 3em;
         margin-top: 3em;
+        gap: 4em;
     }
     .about-us img{
         width: 80%;
@@ -1061,6 +1062,7 @@ font-size: 1.7em;
         flex-direction: column;
         padding-left: 2.2em;
         gap: 3em;
+        padding-top: 1.2em;
     }
 
     .we-are img{
@@ -1106,6 +1108,10 @@ font-size: 1.7em;
       }
       .star{
         width: 35%;
+      }
+
+      .testimonial{
+        padding-top: 2em;
       }
       .testimonial-card p{
         font-size: 1.3em;
@@ -1190,7 +1196,7 @@ width: 3.5%;
 
 #mobile-about-us{
     display: block;
-    padding-top: 5em !important;
+    padding-top: 3em !important;
 }
 
 #mobile-about-us .about-details{
@@ -2113,3 +2119,24 @@ width: 3.5%;
     font-size: 1.2em;
 }
 }
+
+
+@media only screen and (width: 414px) {
+.vl {
+    display: block;
+    border-left: 1px solid #C6C6C6;
+    height: 75px;
+    margin-left: 14.7em;
+    margin-top: -9em;
+ }
+}
+
+@media only screen and (width: 412px) {
+    .vl {
+        display: block;
+        border-left: 1px solid #C6C6C6;
+        height: 75px;
+        margin-left: 14.4em;
+        margin-top -9em;
+     }
+    }
