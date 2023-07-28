@@ -97,9 +97,9 @@
 .about-us{
     display: flex;
     justify-content: center;
-    gap: 3em;
+    gap: 14em;
     padding-top: 5em;
-    padding-left: 8.5em;
+    /* padding-left: 8.5em; */
     background-color: #F6F6F6;
 
 }

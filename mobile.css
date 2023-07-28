@@ -489,7 +489,7 @@ font-size: 1.7em;
         display: block;
         border-left: 1px solid #C6C6C6;
         height: 75px;
-        margin-left: 15em;
+        margin-left: 15.3em;
         margin-top: -9em;
       }
 .customers{
@@ -738,6 +738,410 @@ width: 3.5%;
     padding: 0.8em 9em;
 }
 }
+
+@media only screen and (width: 1980px) {
+
+    /* index.html */
+.customer {
+    display: flex;
+    position: relative;
+    z-index: 1000;
+    justify-content: center;
+    gap: 15em;
+    margin-top: -50em;
+    width: 100%;
+}
+
+
+.menu li{
+    font-size: 25px;
+}
+
+
+.second-part{
+    width: 30%;
+    height: 15em;
+}
+
+
+.first{
+    height: 75vh;
+}
+
+.first-part h3, .first-part h5{
+    font-weight: 600;
+
+}
+
+.first-part h5{
+    font-size: 2em;
+}
+.first-part h3{
+    line-height: 150%;
+    font-size: 3.2em;
+}
+
+.first-part p{
+font-size: 2em;
+}
+.first-part button{
+    padding: 0.8em 1em;
+    border: none;
+    font-size: 1.7em;
+}
+
+
+.second-part input{
+    width: 100%;
+    padding: 0.7em;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.6em;
+}
+.second-part button{
+    margin-left: 7.3em;
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+.blue{
+    background-color: #00519C;
+    padding: 1em;
+}
+.navy{
+    background-color: #1C89ED;
+    padding-top: 1em;
+    padding: 1em;
+}
+
+.navy h4, .blue h4{
+    font-size: 2.7em;
+}
+
+/* second container in index.html */
+
+.about-us{
+    gap: 8em;
+    padding-top: 25em;
+    padding-left: 10em;
+    /* width: 150em; */
+    
+}
+
+
+.about-us img{
+    width: 45%;
+}
+.about-details h4{
+    
+ font-size: 2.3em;
+}
+.about-details h4:after {
+width:30%; /* Change this to whatever width you want. */
+padding-top: 5px; /* This creates some space between the element and the border. */
+border-bottom: 3px solid rgba(28, 137, 237, 1); /* This creates the border. Replace black with whatever color you want. */
+}
+
+.about-details h5{
+font-size: 2em;
+}
+
+.about-details h6{
+font-size: 2em;
+}
+.about-details p{
+font-size: 2em;
+padding-right: 2em !important;
+}
+
+.about-us button{
+font-size: 2em;
+}
+
+
+/* third container in index.html */
+.body-repair{
+    display: flex;
+    justify-content: space-around;
+    /* padding-left: 2em; */
+    padding-bottom: 1em;
+    gap: 13em;
+}
+.body-repair h4, .body-repair h5{
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.body-repair h5{
+    font-size: 2em !important;
+}
+.body-repair button{
+    color: #0047B3;
+    border: 1px solid #0047B3;
+    padding: 0em 1.3em;
+    height: 1.7em;
+    border-radius: 2px;
+    font-weight: 600;
+    margin-right: 2em !important;
+    font-size: 2em;
+}
+
+.body-repair p{
+    font-size: 2em;
+}
+
+.panel-cards{
+    gap: 4em;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 48rem;
+    height: 33em;
+    background-color: #ffffff;
+    border-radius: 5px;
+
+  }
+
+  .cards img{
+    /* object-fit: cover; */
+    width: 48rem;
+}
+.card-text{
+    background-color: #ffffff;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 0.8em;
+    padding-left: 0.8em;
+    padding-top: 0.8em;
+    padding-right: 1em;
+}
+.card-text h5{
+font-weight: 600;
+font-size: 2em;
+}
+.card-text p{
+    font-weight: 500;
+    font-size: 1.8em;
+}
+
+
+/* fourth container for index.html */
+
+.we-are-details h4{
+    font-size: 2em;
+    font-weight: 600;
+}
+.we-are-details h5, .we-are-details h6, .we-are-details p{
+    padding-top: 0.7em;
+    font-weight: 500;
+    font-size: 2em;
+}
+.we-are-details h5{
+    font-size: 2em;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+}
+
+.we-are-details h6{
+    font-size: 2em;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+.we-are button{
+    padding: 0.5em 1em;
+    background-color: #ffffff;
+    color: #404040;
+    border: 1px solid #1C89ED;
+    border-radius: 5px;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.we-are img{
+    width: 35.3%;
+}
+
+
+/* fifth container */
+
+.process{
+   /* font-size: 2em; */
+}
+
+.repair-process{
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 3em;
+    }
+    
+    .repair-process h4, .repair-process h5{
+        font-weight: 600;
+        font-size: 2em;
+    }
+
+    .repair-process h4{
+        font-size: 2em;
+    }
+    .repair-process h5{
+        font-size: 2em;
+    }
+
+    .repair-process p{
+        padding-top: 1em;
+        font-size: 2em;
+    }
+
+.circle{
+    gap: 1em;
+}
+.hr {
+    width: 67% !important;
+}
+
+.stt{
+    width: 30%;
+}
+    .circles h5,  .circles p{
+        font-size: 2em;
+    }
+
+
+.customers h4{
+    font-size: 2.5em;
+}
+
+.customers p{
+    font-size: 2em;
+}
+.card-container{
+    gap: 4em;
+    
+}
+    .testimonial-card{
+        width: 48rem;   
+    }
+
+    .testimonial-card h5{
+        font-size: 2em;
+    }
+
+    .star{
+        width: 40% !important;
+    }
+    .testimonial-card p{
+        font-size: 2em;
+    }
+
+
+    .auto-body-details{
+        margin-top: -23em;
+
+    }
+    .auto-body-details h5 {
+        font-size: 2.5em;
+    }
+
+    .auto-body-details button{
+        font-size: 2em;
+    }
+
+    .footer-container{
+        /* justify-content: space-evenly; */
+    }
+
+    .foot1 p{
+        font-size: 1.7em;
+        padding-top: 1em;
+    }
+    .foot2 h5, .foot3 h5, .foot4 h5{
+        font-size: 1.7em;
+    }
+
+
+    /* about-us page */
+    .us h3 {
+        font-size: 3em;
+    }
+
+    .us h5{
+        font-size: 2em;
+    }
+
+    .us{
+        margin-top: -24em;
+        padding-bottom: 8em;
+    }
+.about-details{
+    padding-top: 3em;
+}
+    .special{
+        width: 35rem;
+    }
+
+    .special img{
+        width: 23% !important;
+    }
+    .special h4{
+        font-size: 2em;
+    }
+
+    .special p{
+        font-size: 2em;
+    }
+
+    /* services.html */
+    .our-services{
+        margin-top: -25em;
+        padding-bottom: 9em;
+    }
+    .our-services h3{
+        font-size: 3em;
+    }
+
+    .our-services h5{
+        font-size: 2em;
+    }
+    .process-card img{
+        /* width: 38rem; */
+    }
+    .carding p{
+        font-size: 1.8em;
+    }
+    .carding h4{
+        font-size: 2em;
+    }
+
+    #br{
+        margin-left: -3em;
+    }
+    .proc p{
+font-size: 1.7em;
+    }
+.proc h5{
+    font-size: 1.8em;
+}
+    .proc h4{
+        font-size: 2em;
+    }
+    /* contact page */
+    #check{
+        margin-left: 35em !important;
+    }
+
+    #h5{
+        margin-left: 47em !important;
+    }
+    .form-btn{
+        margin-left: 57em;
+    }
+
+
+
+}
+
+
 
 @media only screen and (width: 834px) {
     /* index.html */
