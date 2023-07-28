@@ -802,7 +802,7 @@ font-size: 1.7em;
 
 }
 
-@media only screen and (width: 900px) {
+@media only screen and (width: 900px and height:1980) {
     /* index.html */
 .menu-logo img {
    
